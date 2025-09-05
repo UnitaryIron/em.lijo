@@ -22,7 +22,6 @@
     <meta name="author" content="Emmanuel Lijo" />
     <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://emmanuellijo.com/" />
     <meta
@@ -35,7 +34,6 @@
     />
     <meta property="og:image" content="content/me.png" />
 
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://emmanuellijo.com/" />
     <meta
@@ -48,7 +46,6 @@
     />
     <meta property="twitter:image" content="content/me.png" />
 
-    <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -87,7 +84,6 @@
   <body>
     <div id="particles-js"></div>
 
-    <!-- Header -->
     <header id="header">
       <div class="logo">
         <div class="logo-icon">
@@ -109,7 +105,6 @@
       </button>
     </header>
 
-    <!-- Hero section -->
     <section class="hero">
       <div class="hero-content">
         <h1 class="fade-in">Hi, I'm <span>Emmanuel Lijo</span></h1>
@@ -141,7 +136,6 @@
       </div>
     </section>
 
-    <!-- About section -->
     <section id="about" class="fade-in">
       <div class="section-header">
         <h2>About Me</h2>
@@ -200,7 +194,6 @@
       </div>
     </section>
 
-    <!-- Skills section -->
     <section id="skills" class="fade-in">
       <div class="section-header">
         <h2>My Skills</h2>
@@ -466,7 +459,6 @@
       </div>
     </section>
 
-    <!-- Timeline section -->
     <section id="timeline" class="fade-in">
       <div class="section-header">
         <h2>Career Timeline</h2>
@@ -544,8 +536,7 @@
         </div>
       </div>
     </section>
-
-    <!-- Contact section -->
+    
     <section id="contact" class="fade-in">
       <div class="section-header">
         <h2>Get In Touch</h2>
@@ -563,8 +554,8 @@
             </div>
             <div class="contact-text">
               <h3>Email</h3>
-              <a href="mailto:emmanuellijo670@gmail.com"
-                >emmanuellijo670@gmail.com</a
+              <a href="mailto:em.lijo@outlook.com"
+                >em.lijo@outlook.com</a
               >
             </div>
           </div>
@@ -689,15 +680,12 @@
       </div>
     </footer>
 
-    <!-- Back to top button -->
     <div class="back-to-top" id="back-to-top">
       <i class="fas fa-arrow-up"></i>
     </div>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-      // Mobile menu toggle
       const menuBtn = document.getElementById("menu-btn");
       const nav = document.getElementById("nav");
 
@@ -708,7 +696,6 @@
           : '<i class="fas fa-bars"></i>';
       });
 
-      // Close mobile menu when clicking a link
       document.querySelectorAll("nav a").forEach((link) => {
         link.addEventListener("click", () => {
           nav.classList.remove("active");
@@ -716,7 +703,6 @@
         });
       });
 
-      // Header scroll effect
       const header = document.getElementById("header");
       window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
@@ -726,7 +712,6 @@
         }
       });
 
-      // Scroll down button
       document.getElementById("scroll-down").addEventListener("click", () => {
         window.scrollBy({
           top: window.innerHeight - 100,
@@ -734,7 +719,6 @@
         });
       });
 
-      // Back to top button
       const backToTopBtn = document.getElementById("back-to-top");
       window.addEventListener("scroll", () => {
         if (window.scrollY > 300) {
@@ -750,8 +734,6 @@
           behavior: "smooth",
         });
       });
-
-      // Typing animation
       const phrases = [
         "Programming Language Creator ",
         "Full-Stack Developer ",
@@ -795,7 +777,6 @@
 
       type();
 
-      // Counter animation
       function animateCounter(elementId, target, duration = 2000) {
         const element = document.getElementById(elementId);
         const start = 0;
@@ -812,7 +793,6 @@
         }, 16);
       }
 
-      // Intersection Observer for animations
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -833,7 +813,6 @@
         observer.observe(section);
       });
 
-      // Particles.js configuration
       particlesJS("particles-js", {
         particles: {
           number: {
@@ -940,7 +919,6 @@
         retina_detect: true,
       });
 
-      // Form submission
       document
         .getElementById("contact-form")
         .addEventListener("submit", (e) => {
@@ -951,3 +929,4 @@
     </script>
   </body>
 </html>
+
