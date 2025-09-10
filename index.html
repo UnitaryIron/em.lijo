@@ -22,8 +22,9 @@
     <meta name="author" content="Emmanuel Lijo" />
     <meta name="robots" content="index, follow" />
 
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://em-lijo.vercel.app/" />
+    <meta property="og:url" content="https://emmanuellijo.com/" />
     <meta
       property="og:title"
       content="Emmanuel Lijo | 15-Year-Old Programming Language Creator & Tech Innovator"
@@ -34,8 +35,9 @@
     />
     <meta property="og:image" content="content/me.png" />
 
+    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://em-lijo.vercel.app/" />
+    <meta property="twitter:url" content="https://emmanuellijo.com/" />
     <meta
       property="twitter:title"
       content="Emmanuel Lijo | 15-Year-Old Programming Language Creator & Tech Innovator"
@@ -46,12 +48,13 @@
     />
     <meta property="twitter:image" content="content/me.png" />
 
+    <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Emmanuel Lijo",
-        "url": "https://em-lijo.vercel.app/",
+        "url": "https://emmanuellijo.com",
         "image": "content/me.png",
         "sameAs": [
           "https://github.com/unitaryiron",
@@ -68,7 +71,7 @@
         ]
       }
     </script>
-    <link rel="icon" type="image/png" href="content/me.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -84,6 +87,7 @@
   <body>
     <div id="particles-js"></div>
 
+    <!-- Header -->
     <header id="header">
       <div class="logo">
         <div class="logo-icon">
@@ -105,6 +109,9 @@
       </button>
     </header>
 
+    <div class="custom-cursor"></div>
+
+    <!-- Hero section -->
     <section class="hero">
       <div class="hero-content">
         <h1 class="fade-in">Hi, I'm <span>Emmanuel Lijo</span></h1>
@@ -136,6 +143,7 @@
       </div>
     </section>
 
+    <!-- About section -->
     <section id="about" class="fade-in">
       <div class="section-header">
         <h2>About Me</h2>
@@ -194,55 +202,89 @@
       </div>
     </section>
 
-    <section id="skills" class="fade-in">
-      <div class="section-header">
-        <h2>My Skills</h2>
-        <p>
-          A diverse technical skillset spanning programming languages,
-          frameworks, and development methodologies
-        </p>
+    <div class="section-header">
+      <h2>Technical Skills & Expertise</h2>
+      <p>
+        A comprehensive overview of my technical proficiencies across
+        programming languages, development tools, and research methodologies.
+      </p>
+    </div>
+
+    <section class="skills-container">
+      <!-- Languages -->
+      <div class="skill-category fade-in delay-1">
+        <h3><i class="fas fa-code"></i> Languages</h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <i class="fab fa-js-square skill-icon"></i> JavaScript
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-python skill-icon"></i> Python
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-html5 skill-icon"></i> HTML
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt skill-icon"></i> CSS
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-cube skill-icon"></i> Jam
+          </div>
+        </div>
       </div>
 
-      <div class="skills-container">
-        <div class="skill-category fade-in delay-1">
-          <h3><i class="fas fa-code"></i> Languages</h3>
-          <div class="skill-list">
-            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
-            <div class="skill-item"><i class="fab fa-python"></i> Python</div>
-            <div class="skill-item"><i class="fas fa-cube"></i> Jam</div>
-            <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
-            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+      <!-- Development -->
+      <div class="skill-category fade-in delay-2">
+        <h3><i class="fas fa-laptop-code"></i> Development</h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <i class="fab fa-react skill-icon"></i> React
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-npm skill-icon"></i> npm
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-box-open skill-icon"></i> pip
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-git-alt skill-icon"></i> Git
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-github skill-icon"></i> GitHub
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-rocket skill-icon"></i> Vercel
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-fire skill-icon"></i> Firebase
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-bolt skill-icon"></i> FastAPI
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-terminal skill-icon"></i> Bash
           </div>
         </div>
+      </div>
 
-        <div class="skill-category fade-in delay-2">
-          <h3><i class="fas fa-laptop-code"></i> Development</h3>
-          <div class="skill-list">
-            <div class="skill-item"><i class="fab fa-react"></i> React</div>
-            <div class="skill-item"><i class="fas fa-bolt"></i> WebSocket</div>
-            <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
-            <div class="skill-item"><i class="fas fa-fire"></i> Firebase</div>
+      <!-- Research -->
+      <div class="skill-category fade-in delay-3">
+        <h3><i class="fas fa-brain"></i> Research</h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <i class="fas fa-language skill-icon"></i> PL Theory
           </div>
-        </div>
-
-        <div class="skill-category fade-in delay-3">
-          <h3><i class="fas fa-brain"></i> Research</h3>
-          <div class="skill-list">
-            <div class="skill-item">
-              <i class="fas fa-language"></i> PL Theory
-            </div>
-            <div class="skill-item">
-              <i class="fas fa-project-diagram"></i> Compilers
-            </div>
-            <div class="skill-item">
-              <i class="fas fa-user-graduate"></i> HCI
-            </div>
-            <div class="skill-item">
-              <i class="fas fa-book"></i> Academic Writing
-            </div>
-            <div class="skill-item">
-              <i class="fas fa-lightbulb"></i> Problem Solving
-            </div>
+          <div class="skill-item">
+            <i class="fas fa-project-diagram skill-icon"></i> Compilers
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-user-graduate skill-icon"></i> HCI
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-book skill-icon"></i> Academic Writing
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-lightbulb skill-icon"></i> Problem Solving
           </div>
         </div>
       </div>
@@ -459,6 +501,7 @@
       </div>
     </section>
 
+    <!-- Timeline section -->
     <section id="timeline" class="fade-in">
       <div class="section-header">
         <h2>Career Timeline</h2>
@@ -536,7 +579,8 @@
         </div>
       </div>
     </section>
-    
+
+    <!-- Contact section -->
     <section id="contact" class="fade-in">
       <div class="section-header">
         <h2>Get In Touch</h2>
@@ -554,8 +598,8 @@
             </div>
             <div class="contact-text">
               <h3>Email</h3>
-              <a href="mailto:em.lijo@outlook.com"
-                >em.lijo@outlook.com</a
+              <a href="mailto:emmanuellijo670@gmail.com"
+                >emmanuellijo670@gmail.com</a
               >
             </div>
           </div>
@@ -680,12 +724,15 @@
       </div>
     </footer>
 
+    <!-- Back to top button -->
     <div class="back-to-top" id="back-to-top">
       <i class="fas fa-arrow-up"></i>
     </div>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
+      // Mobile menu toggle
       const menuBtn = document.getElementById("menu-btn");
       const nav = document.getElementById("nav");
 
@@ -696,6 +743,14 @@
           : '<i class="fas fa-bars"></i>';
       });
 
+      const cursor = document.querySelector(".custom-cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.top = e.clientY + "px";
+        cursor.style.left = e.clientX + "px";
+      });
+
+      // Close mobile menu when clicking a link
       document.querySelectorAll("nav a").forEach((link) => {
         link.addEventListener("click", () => {
           nav.classList.remove("active");
@@ -703,6 +758,7 @@
         });
       });
 
+      // Header scroll effect
       const header = document.getElementById("header");
       window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
@@ -712,6 +768,7 @@
         }
       });
 
+      // Scroll down button
       document.getElementById("scroll-down").addEventListener("click", () => {
         window.scrollBy({
           top: window.innerHeight - 100,
@@ -719,6 +776,7 @@
         });
       });
 
+      // Back to top button
       const backToTopBtn = document.getElementById("back-to-top");
       window.addEventListener("scroll", () => {
         if (window.scrollY > 300) {
@@ -734,6 +792,8 @@
           behavior: "smooth",
         });
       });
+
+      // Typing animation
       const phrases = [
         "Programming Language Creator ",
         "Full-Stack Developer ",
@@ -777,6 +837,7 @@
 
       type();
 
+      // Counter animation
       function animateCounter(elementId, target, duration = 2000) {
         const element = document.getElementById(elementId);
         const start = 0;
@@ -793,6 +854,7 @@
         }, 16);
       }
 
+      // Intersection Observer for animations
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -813,6 +875,7 @@
         observer.observe(section);
       });
 
+      // Particles.js configuration
       particlesJS("particles-js", {
         particles: {
           number: {
@@ -919,6 +982,7 @@
         retina_detect: true,
       });
 
+      // Form submission
       document
         .getElementById("contact-form")
         .addEventListener("submit", (e) => {
@@ -929,4 +993,3 @@
     </script>
   </body>
 </html>
-
