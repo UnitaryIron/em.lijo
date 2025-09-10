@@ -1,14 +1,13 @@
 :root {
-        /* New professional color scheme */
         --bg: #0a0a0a;
         --bg-light: #161616;
         --bg-lighter: #252525;
         --fg: #f5f5f5;
         --fg-dim: #d4d4d4;
-        --accent: #3b82f6; /* Blue accent */
+        --accent: #3b82f6; 
         --accent-dark: #2563eb;
         --accent-light: #60a5fa;
-        --accent-secondary: #10b981; /* Green for secondary accents */
+        --accent-secondary: #10b981;
         --gray: #a3a3a3;
         --gray-dark: #525252;
         --success: #10b981;
@@ -29,6 +28,7 @@
       }
 
       body {
+        cursor: none;
         background-color: var(--bg);
         color: var(--fg);
         font-family: "Inter", sans-serif;
@@ -37,7 +37,6 @@
         overflow-x: hidden;
       }
 
-      /* Typography */
       h1,
       h2,
       h3,
@@ -79,7 +78,6 @@
         background: var(--accent-light);
       }
 
-      /* Particles background */
       #particles-js {
         position: fixed;
         width: 100%;
@@ -1006,3 +1004,25 @@
           grid-template-columns: 1fr;
         }
       }
+  ::selection {
+  background: var(--accent-light);
+  color: var(--bg);
+}
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      border: 2px solid white; 
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+      background: transparent;
+    }
+
+    * {
+      cursor: none !important;
+    }          
